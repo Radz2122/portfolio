@@ -1,0 +1,23 @@
+.Entete{
+    padding: 3vh 5vw;
+    background-color: #88A6B5;
+    color: white;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .navPrincipale{
+        display: flex;
+        list-style-type: none;
+
+        li{
+            font-size: 1.5em;
+            margin-right: 2.5vw;
+        }
+    }
+    .prenomNom{
+        font-size:3em;
+    }
+}
