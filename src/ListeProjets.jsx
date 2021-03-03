@@ -1,6 +1,7 @@
 import './ListeProjets.scss';
 import Projet from './Projet';
 import tabProjets from "./data/liste-projets.json";
+import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 
 export default function ListeProjets() {
     return (
@@ -25,6 +26,7 @@ export default function ListeProjets() {
           />
         ))}
       </ul>
+      <ArrowUpwardIcon/>
     </div>
     );
   }

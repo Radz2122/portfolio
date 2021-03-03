@@ -2,10 +2,33 @@
     width: 350px;
     height: 350px;
     margin: 10px;
-    padding: 10px;
-    background-color: #444;
+    padding:10px;
+    background-color: #31647F;
     color: white;
-    border: 1px solid #555;
     overflow: hidden;
     text-align: center;
+
+    .plusInfo{
+        background-color:transparent;
+        padding: 0;
+        color: whitesmoke;
+        border: none;
+        margin-left: 300px;
+        &:hover{
+            cursor: pointer;
+            border: none;
+            outline: none;
+        }
+        &:focus{
+            outline: none;
+            border: none;
+        }
+    }
+    p{
+        height: 250px;
+    }
+    .descProjet{
+        text-align: start;
+        padding-left: 10px;
+    }
 }

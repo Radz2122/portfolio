@@ -1,0 +1,24 @@
+.Pied2Page{
+    padding: 3vh 7vw;
+    background-color: #88A6B5;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    .linked{
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        color: whitesmoke;
+        &:hover{
+            cursor: pointer;
+            border: none;
+            outline: none;
+        }
+        &:focus{
+            outline: none;
+            border: none;
+        }
+    }
+}
