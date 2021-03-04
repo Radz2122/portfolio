@@ -1,0 +1,25 @@
+.Icones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 25px;
+    border: none;
+    outline: none;
+    font-family:'Dosis', sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+    background-color: transparent;
+    &:hover{
+        cursor: pointer;   
+    }
+    &:focus{
+        outline: none;
+        border: none;
+    }
+    img{
+        width:150px;
+        height: 150px;
+    }
+   
+}

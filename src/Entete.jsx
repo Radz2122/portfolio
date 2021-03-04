@@ -1,15 +1,35 @@
+import React, { useRef, useEffect } from 'react';
 import "./Entete.scss";
 
 export default function Entete(props) {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+  const scrollToMid = () => {
+    window.scrollTo({
+      top: 300,
+      behavior: "smooth"
+    });
+  };
+ 
+  const scrollToEnd = () => {
+    window.scrollTo({
+      top: 1000000,
+      behavior: "smooth"
+    });
+  };
     return (
         <header className="Entete">
           <div className="prenomNom">Radhika Patel</div>
           <ul className="navPrincipale">
-            <li>À PROPOS</li>
-            <li>PORTFOLIO</li>
-            <li>CONTACT</li>
+          <button onClick={scrollToTop}><li>À PROPOS</li></button>
+          <button onClick={scrollToMid}><li>PORTFOLIO</li></button>
+          <button onClick={scrollToEnd}><li>CONTACT</li></button>
           </ul>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining.</p>
+          <p> Passionnée de design, j’adore créer des sites web, des logos, des affiches, des pochettes d’albums et des jeux. Je suis une personne organisée, forte en gestion et en travail d’équipe. Je cherche continuellement à apprendre afin d’améliorer mes compétences.</p>
         </header>
       );
 }

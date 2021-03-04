@@ -1,0 +1,26 @@
+[
+    {
+        "id":"cat1",
+        "titre":"ANIMATION"
+    },
+    {
+        "id":"cat2",
+        "titre":"DESIGN GRAPHIQUE"
+    },
+    {
+        "id":"cat3",
+        "titre":"3D"
+    },
+    {
+        "id":"cat4",
+        "titre":"ILLUSTRATION"
+    },
+    {
+        "id":"cat5",
+        "titre":"JEUX"
+    },
+    {
+        "id":"cat6",
+        "titre":"SITES WEB"
+    }
+]

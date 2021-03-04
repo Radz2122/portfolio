@@ -20,4 +20,23 @@
     .prenomNom{
         font-size:3em;
     }
+    button{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-family:'Dosis', sans-serif;
+        font-size: 1em;
+        letter-spacing: 0.05em;
+        color: whitesmoke;
+        &:hover{
+            cursor: pointer;
+        }
+        &:focus{
+            outline: none;
+            border: none;
+        }
+        &:active{
+            color: #31647F;
+        }
+    }
 }

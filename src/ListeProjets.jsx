@@ -1,19 +1,32 @@
+import React, { useEffect, useState } from "react";
 import './ListeProjets.scss';
 import Projet from './Projet';
+import Icones from './Icones';
 import tabProjets from "./data/liste-projets.json";
+import tabIcones from "./data/liste-icones.json";
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
+import { Button } from '@material-ui/core';
 
 export default function ListeProjets() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+ 
+
     return (
     <div className="SectionProjets">
         <div className="titreSection"> <span>PROJETS</span></div>
-        <ul className="categories">
-            <li>ANIMATION</li>
-            <li>DESIGN GRAPHIQUE</li>
-            <li>3D</li>
-            <li>ILLUSTRATION</li>
-            <li>JEUX</li>
-            <li>SITES WEB</li>
+        <ul className="listeIcones">
+        {tabIcones.map((ic) => (
+          <Icones 
+            key={ic.id}
+            id={ic.id}
+            titre={ic.titre}
+          />
+        ))}
         </ul>
         <ul className="listeProjets">
         {tabProjets.map((prj) => (
@@ -26,7 +39,7 @@ export default function ListeProjets() {
           />
         ))}
       </ul>
-      <ArrowUpwardIcon/>
+      <button className="backTop"><ArrowUpwardIcon style={{ fontSize:40, marginTop:10, marginBottom:10,padding:0}} onClick={scrollToTop}/></button>
     </div>
     );
   }
