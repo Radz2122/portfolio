@@ -1,4 +1,5 @@
 .Entete{
+    margin:-10px 0 0 0;
     padding: 3vh 5vw;
     background-color: #88A6B5;
     color: white;
@@ -12,40 +13,46 @@
         display: flex;
         list-style-type: none;
 
-        li{
-            font-size: 1.5em;
-            margin-right: 2.5vw;
+        button{
+            background-color: transparent;
+            border: none;
+            outline: none;
+            font-family:'Dosis', sans-serif;
+            font-size: 1em;
+            letter-spacing: 0.05em;
+            color: whitesmoke;
+            &:hover{
+                cursor: pointer;
+            }
+            &:focus{
+                outline: none;
+                border: none;
+            }
+            &:active{
+                color: #31647F;
+            }
+            li{
+                font-size: 1.5em;
+                margin-right: 2.5vw;
+            }
         }
+        
     }
     .prenomNom{
         font-size:3em;
     }
-    button{
-        background-color: transparent;
-        border: none;
-        outline: none;
-        font-family:'Dosis', sans-serif;
-        font-size: 1em;
-        letter-spacing: 0.05em;
-        color: whitesmoke;
-        &:hover{
-            cursor: pointer;
-        }
-        &:focus{
-            outline: none;
-            border: none;
-        }
-        &:active{
-            color: #31647F;
-        }
-    }
+   
 }
 @media screen and (max-width: 768px) {
     .Entete{
-        margin:0;
+        margin:-10px 0 0 0;
         width: 100vw;
         justify-content: center;
         align-items: center;
         padding: 1vh 5vw;
+
+        .navPrincipale{
+            display: none;
+        }
     }
 }
