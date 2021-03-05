@@ -22,3 +22,13 @@
         }
     }
 }
+@media screen and (max-width: 768px) {
+    .Pied2Page{
+        font-size: 0.8em;
+        margin:0;
+        width: 100vw;
+        justify-content: space-between;
+        align-items: center;
+        padding:6px;
+    }
+}

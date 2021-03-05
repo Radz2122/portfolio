@@ -6,6 +6,6 @@ export default function Icones({id, titre}) {
       }
 
   return (
-     <button onClick={selection} className="Icones"><img src={`icones/${id}.png`} alt={titre}/><div>{titre}</div></button>       
+     <button onClick={selection} className="Icones"><img src={`icones/${id}.png`} alt={titre}/><div className="nomIcone">{titre}</div></button>       
   );
 }

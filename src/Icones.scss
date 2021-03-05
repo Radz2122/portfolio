@@ -23,3 +23,16 @@
     }
    
 }
+@media screen and (max-width: 768px) {
+    .Icones{
+        margin:0 0 0 35px;
+        img{
+            width:60px;
+            height: 60px;
+        }
+        .nomIcone{
+            display: none;
+            font-size: 0.8em;
+        }
+    }
+}

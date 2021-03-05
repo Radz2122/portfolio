@@ -19,26 +19,28 @@ export default function ListeProjets() {
     return (
     <div className="SectionProjets">
         <div className="titreSection"> <span>PROJETS</span></div>
-        <ul className="listeIcones">
-        {tabIcones.map((ic) => (
-          <Icones 
-            key={ic.id}
-            id={ic.id}
-            titre={ic.titre}
-          />
-        ))}
+        <div className="contenu">
+          <ul className="listeIcones">
+          {tabIcones.map((ic) => (
+            <Icones 
+              key={ic.id}
+              id={ic.id}
+              titre={ic.titre}
+            />
+          ))}
+          </ul>
+          <ul className="listeProjets">
+          {tabProjets.map((prj) => (
+            <Projet
+              key={prj.id}
+              id={prj.id}
+              titre={prj.titre}
+              desc={prj.description}
+              url={prj.url}
+            />
+          ))}
         </ul>
-        <ul className="listeProjets">
-        {tabProjets.map((prj) => (
-          <Projet
-            key={prj.id}
-            id={prj.id}
-            titre={prj.titre}
-            desc={prj.description}
-            url={prj.url}
-          />
-        ))}
-      </ul>
+      </div>
       <button className="backTop"><ArrowUpwardIcon style={{ fontSize:40, marginTop:10, marginBottom:10,padding:0}} onClick={scrollToTop}/></button>
     </div>
     );
