@@ -7,7 +7,10 @@ import Switch from '@material-ui/core/Switch';
 import Paper from '@material-ui/core/Paper';
 import Collapse from '@material-ui/core/Collapse';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
+import { SRLWrapper } from "simple-react-lightbox";
+
 const useStyles = makeStyles((theme) => ({
+  //pour slide in transition
   root: {
     height: 350,
   },
@@ -16,6 +19,25 @@ const useStyles = makeStyles((theme) => ({
   },
 
 }));
+//pour lightbox
+const options = {
+  settings: {
+    disableKeyboardControls:true,
+    disableWheelControls:true,
+  },
+  buttons: {
+    backgroundColor: 'transparent',
+    iconColor: '#88A6B5',
+    showAutoplayButton: false,
+    showDownloadButton: false,
+    showFullscreenButton: false,
+    showNextButton: false,
+    showPrevButton: false,
+    showThumbnailsButton: false,
+  },
+  thumbnails: {
+    showThumbnails: false,}
+}
 
 
 export default function Projet(props) {
@@ -54,7 +76,11 @@ export default function Projet(props) {
             </div>
         </Collapse>
       </div>
-      <img  className="imgProjet"src={`images-projets/${props.id}.png`} alt={props.titre}/>  
+
+      <SRLWrapper options={options}>
+      <img  className="imgProjet" style={{width:'100%',height:330,objectFit:'cover', cursor:'pointer'}}src={`images-projets/${props.id}.png`} alt={props.titre}/>  
+      </SRLWrapper>
+    
     </div>
     );
   }
