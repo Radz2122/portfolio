@@ -10,6 +10,7 @@ import Collapse from '@material-ui/core/Collapse';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import { SRLWrapper } from "simple-react-lightbox";
 
+
 const useStyles = makeStyles((theme) => ({
   //pour slide in transition
   root: {
@@ -62,7 +63,8 @@ export default function Projet(props) {
 
     const handleChange = () => {
       setChecked((prev) => !prev);
-};
+     };
+     
   return (
     <div className="Projet">
       <div className={classes.container}>
@@ -77,10 +79,11 @@ export default function Projet(props) {
             </div>
         </Collapse>
       </div>
-
-      <SRLWrapper options={options}>
+      <SRLWrapper options={options} > 
       <img  className="imgProjet" style={{width:'100%',height:330,objectFit:'cover', cursor:'pointer'}}src={`images-projets/${props.id}.png`} alt={props.titre}/>  
       </SRLWrapper>
+    
+     
     
     </div>
     );
