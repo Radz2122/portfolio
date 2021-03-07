@@ -80,7 +80,7 @@ export default function Projet(props) {
         </Collapse>
       </div>
       <SRLWrapper options={options} > 
-      <img  className="imgProjet" style={{width:'100%',height:330,objectFit:'cover', cursor:'pointer'}}src={`images-projets/${props.id}.png`} alt={props.titre}/>  
+      <img  className="imgProjet" style={{width:'100%',height:'100%',objectFit:'fill', cursor:'pointer'}}src={`images-projets/${props.id}.png`} alt={props.titre}/>  
       </SRLWrapper>
     
      
