@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projet.scss';
+import Icones from './Icones';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import Tooltip from '@material-ui/core/Tooltip';
 import { makeStyles } from '@material-ui/core/styles';

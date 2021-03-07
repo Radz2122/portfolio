@@ -7,7 +7,7 @@ import tabIcones from "./data/liste-icones.json";
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 import { Button } from '@material-ui/core';
 
-export default function ListeProjets() {
+export default function ListeProjets(props) {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -37,6 +37,7 @@ export default function ListeProjets() {
               titre={prj.titre}
               desc={prj.description}
               url={prj.url}
+              cat={prj.categorie}
             />
           ))}
         </ul>
