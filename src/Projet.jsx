@@ -1,13 +1,9 @@
 import React from 'react';
 import './Projet.scss';
-import Icones from './Icones';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import Tooltip from '@material-ui/core/Tooltip';
 import { makeStyles } from '@material-ui/core/styles';
-import Switch from '@material-ui/core/Switch';
-import Paper from '@material-ui/core/Paper';
 import Collapse from '@material-ui/core/Collapse';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
 import { SRLWrapper } from "simple-react-lightbox";
 
 

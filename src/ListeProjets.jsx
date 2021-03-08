@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from "react";
 import './ListeProjets.scss';
 import Projet from './Projet';
 import Icones from './Icones';
 import tabProjets from "./data/liste-projets.json";
 import tabIcones from "./data/liste-icones.json";
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
-import { Button } from '@material-ui/core';
 
 export default function ListeProjets(props) {
   const scrollToTop = () => {

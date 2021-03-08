@@ -1,5 +1,3 @@
-
-import React, { useRef, useEffect } from 'react';
 import "./Entete.scss";
 
 export default function Entete(props) {
