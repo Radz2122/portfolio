@@ -1,84 +1,84 @@
 [
     {
       "id": "prj001",
-      "categorie":" cat2",
+      "categorie":"icones/cat2.png",
       "titre": "Design de logo",
       "description": "Logo créé pour un entraîneur personnel dont les initiales sont H.W.",
       "url": "https://www.behance.net/gallery/114542591/Design-de-logo"
     },
     {
         "id": "prj002",
-        "categorie":" cat2",
-        "titre": "Document de conception de jeu",
+        "categorie":"icones/cat2.png",
+        "titre": "Conceptualisation d'un jeu",
         "description": "Le but du document est de scénariser un jeu, son univers et ses personnages. Il contient le synopsis de l'histoire et du gameplay, la description des personnages, des maquettes et plus.",
         "url": "https://www.behance.net/gallery/114543073/Document-de-conception-de-jeu-%28En-quipe%29"
     },
     {
         "id": "prj003",
-        "categorie":" cat3",
+        "categorie":"icones/cat3.png",
         "titre": "Modélisation d'un véhicule",
         "description": " Le but projet était de créer un véhicule unique inspiré d'un animal.",
         "url": "https://www.behance.net/gallery/114544589/Modlisation-dun-vhicule"
     },
     {
         "id": "prj004",
-        "categorie":" cat6",
+        "categorie":"icones/cat6.png",
         "titre": "Refonte d'un site web",
         "description": "Le but du projet était de retravailler un site qui avait un mauvais design et l'adapter pour ordinateur, tablette et mobile. J'avais choisi le site de ma pisicne municipale",
         "url": "https://www.behance.net/gallery/114545235/Refonte-dun-site-web"
     },
     {
         "id": "prj005",
-        "categorie":" cat6",
-        "titre": "Conception du site web du département",
+        "categorie":"icones/cat6.png",
+        "titre": "Site web du département",
         "description": "Le but du projet était de refaire le site web du département de multimédia du collège de Maisonneuve (adapté pour écrans d'ordinateurs et de téléphones). ",
         "url": "https://www.behance.net/gallery/114546329/Conception-du-site-web-du-dpartement-%28En-quipe%29"
     },
     {
         "id": "prj006",
-        "categorie":" cat1",
-        "titre": "Première exploration d'After Effects",
+        "categorie":"icones/cat1.png",
+        "titre": "Exploration d'After Effects",
         "description": "Cette animation a été réalisée dans la cadre d'un exercice. Je suis partie de mon dessin pour la créer.",
         "url": "https://www.behance.net/gallery/114547181/Premiere-exploration-d-After-Effects"
     },
     {
         "id": "prj007",
-        "categorie":" cat1",
+        "categorie":"icones/cat1.png",
         "titre": "Publicité",
         "description": "Le but de la vidéo était de mettre en vedette un produit existant. Nous avions choisi les chaises de jeu DXRacer.",
         "url": "https://www.behance.net/gallery/114547567/Publicit-%28En-quipe%29"
     },
     {
         "id": "prj008",
-        "categorie":" cat1",
+        "categorie":"icones/cat1.png",
         "titre": "Vidéo promotionnelle",
         "description": "Le but de l'animation était de promouvoir le département multimédia du collège de Maisonneuve ainsi que ses deux côtés: le design (côté créatif) et la programmation (côté technique).",
         "url": "https://www.behance.net/gallery/114548103/Vido-promotionnelle-%28En-quipe%29"
     },
     {
         "id": "prj009",
-        "categorie":" cat4",
+        "categorie":"icones/cat4.png",
         "titre": "Couverture d'album",
         "description": "Ce dessin a été réalisé pour un ami.",
         "url": "https://www.behance.net/gallery/114548565/Couverture-dalbum"
     },
     {
         "id": "prj010",
-        "categorie":" cat5",
-        "titre": "Projet final de jeu: Pestilence-High",
+        "categorie":"icones/cat5.png",
+        "titre": "Jeu final: Pestilence-High",
         "description": "Le but de ce projet était de créer un jeu qui démontrait nos capacités.",
         "url": "https://www.behance.net/gallery/114548891/Projet-final-de-jeu-Pestilence-High-%28En-quipe%29"
     },
     {
         "id": "prj011",
-        "categorie":" cat5",
-        "titre": "Game Jam du Collège de Valleyfield 2020",
-        "description": "Deuxième place.Le thème du GameJam était: Comptes et légendes québécoises et nous avions choisi le compte du Bonhomme Sept Heures. Le nom du jeu est: Les enfants de la fôret parce que le but du jeu est d'aller sauver les enfants perdus dans la fôret avant que le temps s'écoule.",
+        "categorie":"icones/cat5.png",
+        "titre": "Game Jam 2020",
+        "description": "Game Jam du Collège de Valleyfield 2020: deuxième place. Le thème du GameJam était: Comptes et légendes québécoises et nous avions choisi le compte du Bonhomme Sept Heures. Le nom du jeu est: Les enfants de la fôret parce que le but du jeu est d'aller sauver les enfants perdus dans la fôret avant que le temps s'écoule.",
         "url": "https://www.behance.net/gallery/114550453/Game-Jam-du-College-deValleyfield-2020-%28En-quipe%29"
     },
     {
         "id": "prj012",
-        "categorie":" cat5",
+        "categorie":"icones/cat5.png",
         "titre": "Projet de recherche (À venir)",
         "description": "Projet de recherche sur Unreal Engine. À venir.",
         "url": ""

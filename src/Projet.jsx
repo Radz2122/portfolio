@@ -68,7 +68,7 @@ export default function Projet(props) {
   return (
     <div className="Projet">
       <div className={classes.container}>
-        <button className="ouvreInfo" onClick={handleChange}>+</button>
+        <button className="ouvreInfo" onClick={handleChange}><img src={props.cat}alt={props.cat} ></img></button>
         <Collapse  in={checked}>
           <div className="titreProjet">{props.titre}</div>
           <p className="descProjet">{props.desc}</p>

@@ -13,7 +13,7 @@
     },
     {
         "id":"cat4",
-        "titre":"ILLUSTRATION"
+        "titre":"DESSIN"
     },
     {
         "id":"cat5",
@@ -21,6 +21,6 @@
     },
     {
         "id":"cat6",
-        "titre":"SITES WEB"
+        "titre":"SITES"
     }
 ]
