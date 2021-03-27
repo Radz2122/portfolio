@@ -4,6 +4,7 @@
       "categorie":"icones/cat2.png",
       "titre": "Design de logo",
       "description": "Logo créé pour un entraîneur personnel dont les initiales sont H.W.",
+      "outils":"Photoshop, Illustrator",
       "url": "https://www.behance.net/gallery/114542591/Design-de-logo"
     },
     {
@@ -11,6 +12,7 @@
         "categorie":"icones/cat2.png",
         "titre": "Conceptualisation d'un jeu",
         "description": "Le but du document est de scénariser un jeu, son univers et ses personnages. Il contient le synopsis de l'histoire et du gameplay, la description des personnages, des maquettes et plus.",
+        "outils":"Photoshop, Canvas",
         "url": "https://www.behance.net/gallery/114543073/Document-de-conception-de-jeu-%28En-quipe%29"
     },
     {
@@ -18,6 +20,7 @@
         "categorie":"icones/cat3.png",
         "titre": "Modélisation d'un véhicule",
         "description": " Le but projet était de créer un véhicule unique inspiré d'un animal.",
+        "outils":"Maya",
         "url": "https://www.behance.net/gallery/114544589/Modlisation-dun-vhicule"
     },
     {
@@ -25,6 +28,7 @@
         "categorie":"icones/cat6.png",
         "titre": "Refonte d'un site web",
         "description": "Le but du projet était de retravailler un site qui avait un mauvais design et l'adapter pour ordinateur, tablette et mobile. J'avais choisi le site de ma pisicne municipale",
+        "outils":"Adobe XD, HTML/CSS, JavaScript",
         "url": "https://www.behance.net/gallery/114545235/Refonte-dun-site-web"
     },
     {
@@ -32,6 +36,7 @@
         "categorie":"icones/cat6.png",
         "titre": "Site web du département",
         "description": "Le but du projet était de refaire le site web du département de multimédia du collège de Maisonneuve (adapté pour écrans d'ordinateurs et de téléphones). ",
+        "outils":"Adobe XD, HTML/CSS, JavaScript, PHP",
         "url": "https://www.behance.net/gallery/114546329/Conception-du-site-web-du-dpartement-%28En-quipe%29"
     },
     {
@@ -39,6 +44,7 @@
         "categorie":"icones/cat1.png",
         "titre": "Exploration d'After Effects",
         "description": "Cette animation a été réalisée dans la cadre d'un exercice. Je suis partie de mon dessin pour la créer.",
+        "outils":"After Effects",
         "url": "https://www.behance.net/gallery/114547181/Premiere-exploration-d-After-Effects"
     },
     {
@@ -46,6 +52,7 @@
         "categorie":"icones/cat1.png",
         "titre": "Publicité",
         "description": "Le but de la vidéo était de mettre en vedette un produit existant. Nous avions choisi les chaises de jeu DXRacer.",
+        "outils":"Adobe Animate, Premiere Pro",
         "url": "https://www.behance.net/gallery/114547567/Publicit-%28En-quipe%29"
     },
     {
@@ -53,6 +60,7 @@
         "categorie":"icones/cat1.png",
         "titre": "Vidéo promotionnelle",
         "description": "Le but de l'animation était de promouvoir le département multimédia du collège de Maisonneuve ainsi que ses deux côtés: le design (côté créatif) et la programmation (côté technique).",
+        "outils":"Maya, Premiere Pro",
         "url": "https://www.behance.net/gallery/114548103/Vido-promotionnelle-%28En-quipe%29"
     },
     {
@@ -60,6 +68,7 @@
         "categorie":"icones/cat4.png",
         "titre": "Couverture d'album",
         "description": "Ce dessin a été réalisé pour un ami.",
+        "outils":"Photoshop",
         "url": "https://www.behance.net/gallery/114548565/Couverture-dalbum"
     },
     {
@@ -67,6 +76,7 @@
         "categorie":"icones/cat5.png",
         "titre": "Jeu final: Pestilence-High",
         "description": "Le but de ce projet était de créer un jeu qui démontrait nos capacités.",
+        "outils":"Photoshop, Unity",
         "url": "https://www.behance.net/gallery/114548891/Projet-final-de-jeu-Pestilence-High-%28En-quipe%29"
     },
     {
@@ -74,6 +84,7 @@
         "categorie":"icones/cat5.png",
         "titre": "Game Jam 2020",
         "description": "Game Jam du Collège de Valleyfield 2020: deuxième place. Le thème du GameJam était: Comptes et légendes québécoises et nous avions choisi le compte du Bonhomme Sept Heures. Le nom du jeu est: Les enfants de la fôret parce que le but du jeu est d'aller sauver les enfants perdus dans la fôret avant que le temps s'écoule.",
+        "outils":"Photoshop, Illustrator, Unity",
         "url": "https://www.behance.net/gallery/114550453/Game-Jam-du-College-deValleyfield-2020-%28En-quipe%29"
     },
     {
@@ -81,6 +92,7 @@
         "categorie":"icones/cat5.png",
         "titre": "Projet de recherche (À venir)",
         "description": "Projet de recherche sur Unreal Engine. À venir.",
+        "outils":"Unreal Engine",
         "url": ""
     }
   ]

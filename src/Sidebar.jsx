@@ -1,14 +1,14 @@
 import React from 'react';
 import './Sidebar.scss';
 import { stack as Menu } from 'react-burger-menu';
-
 export default props => {
+ 
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: "smooth"
     });
-    
+   
   };
   const scrollToMid = () => {
     window.scrollTo({

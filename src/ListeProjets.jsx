@@ -36,6 +36,7 @@ export default function ListeProjets(props) {
               desc={prj.description}
               url={prj.url}
               cat={prj.categorie}
+              outils={prj.outils}
             />
           ))}
         </ul>

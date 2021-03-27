@@ -100,7 +100,9 @@ button{
   .bm-item:hover {
     color: #ffffff;
   }
-  @media only screen and (min-width: 768px) {
+  
+ //MOBILE ET TABLTTE AFFICHAGE DU MERNU BURGER
+  @media only screen and (min-width: 1280px) {
     .bm-burger-button {
         display: none;
       }

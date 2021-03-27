@@ -2,7 +2,6 @@
     width: 340px;
     height: 340px;
     margin: 10px;
-    // padding:5px;
     background-color: #31647F;
     align-content: center;
     border: 5px solid #31647F;
@@ -19,6 +18,15 @@
             color: whitesmoke;
             border: none;
             margin-left: 300px;
+            @keyframes animeFleche {
+                from {margin-left:300px;}
+                to {margin-left:306px;}
+              }
+              animation-name: animeFleche;
+              animation-duration: 0.5s;  
+              animation-iteration-count: infinite;
+              animation-direction: alternate;
+              animation-timing-function: ease-in;
             &:hover{
                 cursor: pointer;
                 border: none;
@@ -37,12 +45,21 @@
     .titreProjet{
         margin-top: 10px;
         text-align: center;
+        font-weight: bold;
+        font-size: 1.3em;
     }
     .descProjet{
         text-align: start;
         padding-left: 10px;
     }
-
+    .outils{
+        margin-top: 10px;
+        text-align: start;
+        padding-left: 10px;
+    }
+    .outils span{
+        font-weight: bold;
+    }
   
     .ouvreInfo{
         position: absolute;
@@ -52,6 +69,29 @@
         outline: none;
         &:hover{
             cursor: pointer;
+            @keyframes shake {
+                10%, 90% {
+                  transform: translate3d(-0.5px, 0, 0);
+                }
+                
+                20%, 80% {
+                  transform: translate3d(1px, 0, 0);
+                }
+              
+                30%, 50%, 70% {
+                  transform: translate3d(-1.5px, 0, 0);
+                }
+              
+                40%, 60% {
+                  transform: translate3d(1.5px, 0, 0);
+                }
+              }
+           
+              animation-name: shake;
+              animation-duration: 0.5s;  
+              animation-iteration-count: infinite;
+              animation-direction: alternate;
+              animation-timing-function: ease-in;
             border: none;
             outline: none;
         }
@@ -74,6 +114,56 @@
         }
     }
 }
+
+//TABLETTE
+@media screen and (min-width: 769px) and (max-width: 1280px)  {
+    .Projet{
+        width: 300px;
+        height: 300px;
+        margin: 10px 10px 15px 25px;
+        border: 3px solid #31647F;
+        p{
+            height: 200px;
+            }
+        .plusInfoContainer{
+            margin-top: -10px;
+            padding-bottom: 10px;
+            .plusInfo{
+                background-color:transparent;
+                padding: 0;
+                color: whitesmoke;
+                border: none;
+                margin-left: 260px;
+                @keyframes animeFleche {
+                    from {margin-left:260px;}
+                    to {margin-left:266px;}
+                  }
+                  animation-name: animeFleche;
+                  animation-duration: 0.5s;  
+                  animation-iteration-count: infinite;
+                  animation-direction: alternate;
+                  animation-timing-function: ease-in;
+                &:hover{
+                    cursor: pointer;
+                    border: none;
+                    outline: none;
+                }
+                &:focus{
+                    outline: none;
+                    border: none;
+                }
+            }
+        }
+        .titreProjet{
+            font-size: 1em;
+         }
+         .descProjet{
+             font-size: 0.9em;
+         }
+    }
+}
+
+//MOBILE
 @media screen and (max-width: 768px) {
     .Projet{
     width: 280px;
@@ -98,6 +188,15 @@
             .plusInfo{
              padding: 0;
              margin-left: 240px;
+             @keyframes animeFleche {
+                from {margin-left:240px;}
+                to {margin-left:246px;}
+              }
+              animation-name: animeFleche;
+              animation-duration: 0.5s;  
+              animation-iteration-count: infinite;
+              animation-direction: alternate;
+              animation-timing-function: ease-in;
             &:hover{
              cursor: pointer;
             }

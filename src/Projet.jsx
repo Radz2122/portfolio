@@ -67,7 +67,9 @@ export default function Projet(props) {
         <button className="ouvreInfo" onClick={handleChange}><img src={props.cat}alt={props.cat} ></img></button>
         <Collapse  in={checked}>
           <div className="titreProjet">{props.titre}</div>
-          <p className="descProjet">{props.desc}</p>
+          <p className="descProjet">{props.desc}
+          <p className="outils"><span>Réalisé avec:</span><br></br>{props.outils}</p>
+          </p>
             <div className="plusInfoContainer">
               <Tooltip  arrow disableFocusListener disableTouchListener open={open} onClose={handleClose} onOpen={handleOpen} title="Voir plus" placement="left">
                 <button className="plusInfo"><NavigateNextIcon style={{ fontSize:30}} onClick={infoAdd}/></button>

@@ -23,6 +23,26 @@
     }
    
 }
+
+//TABLETTE
+@media screen and (min-width: 769px) and (max-width: 1280px)  {
+    .Icones{
+        margin:0 0 0 42px;
+       
+        .nomIcone{
+            font-size: 0.65em;
+            width: 52px;
+            text-align: center;
+            justify-content:center;
+        }
+        img{
+            width:75px;
+            height: 75px;
+        }
+    }
+}
+
+//MOBILE
 @media screen and (max-width: 768px) {
     .Icones{
         margin:0 0 0 42px;
