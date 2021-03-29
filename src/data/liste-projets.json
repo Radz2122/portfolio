@@ -90,9 +90,9 @@
     {
         "id": "prj012",
         "categorie":"icones/cat5.png",
-        "titre": "Projet de recherche (À venir)",
-        "description": "Projet de recherche sur Unreal Engine. À venir.",
+        "titre": "Projet de recherche",
+        "description": "Mon projet de recherche était sur Unreal Engine. Plus précisément, sur la création de UI dans le logiciel. J'ai pu explorer les blueprints, les animations ainsi que son interface de design.",
         "outils":"Unreal Engine",
-        "url": ""
+        "url": "https://www.behance.net/gallery/116453761/Exploration-dUnreal-Engine"
     }
   ]
