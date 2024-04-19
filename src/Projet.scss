@@ -1,17 +1,22 @@
-.Projet{
+.Projet {
     width: 340px;
     height: 340px;
     margin: 10px;
-    background-color: #31647F;
+    background-color: #31647f;
     align-content: center;
-    border: 5px solid #31647F;
+    border: 5px solid #31647f;
     color: white;
     overflow: hidden;
     text-align: center;
+    position: relative; // Add this to make absolute positioning work
 
     .plusInfoContainer{
         margin-top: 50px;
         padding-bottom: 10px;
+        position: absolute;
+        bottom: 10px; // Adjust bottom position as needed
+        left: 50%; // Center horizontally
+        transform: translateX(-50%); // Center horizontally
         .plusInfo{
             background-color:transparent;
             padding: 0;
